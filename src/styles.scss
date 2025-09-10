@@ -1,0 +1,204 @@
+//ng-select
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+//ng-tree-component
+@import "~angular-tree-component/dist/angular-tree-component.css";
+
+//Toatr Styles
+@import "~ngx-toastr/toastr.css";
+
+/****************************/
+/* FONTS */
+/****************************/
+//Fontawesome
+$fa-font-path: "/assets/fonts/fontawesome/webfonts";
+
+@import "/assets/fonts/fontawesome/scss/fontawesome.scss";
+@import "/assets/fonts/fontawesome/scss/regular.scss";
+@import "/assets/fonts/fontawesome/scss/solid.scss";
+@import "/assets/fonts/fontawesome/scss/brands.scss";
+
+//Lato
+@import "/assets/fonts/Roboto/Roboto.scss";
+
+//Open Sans
+@import "/assets/fonts/OpenSans/OpenSans.scss";
+
+$open-sans: "Open Sans", sans-serif;
+
+//LinearIcons
+@import "/assets/fonts/Linearicons/linearicons-free.scss";
+
+//Theme Import
+@import "src/themes/_variables.scss";
+
+//Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import "src/themes/_accordion.scss";
+@import "src/themes/_badge.scss";
+@import "src/themes/_buttons.scss";
+@import "src/themes/_card.scss";
+@import "src/themes/_carousel.scss";
+@import "src/themes/_charts.scss";
+@import "src/themes/_collapse.scss";
+@import "src/themes/_custom-forms.scss";
+@import "src/themes/_dropdown.scss";
+@import "src/themes/_forms.scss";
+@import "src/themes/_grid.scss";
+@import "src/themes/_header.scss";
+@import "src/themes/_hover.scss";
+@import "src/themes/_spinner.scss";
+@import "src/themes/_input-group.scss";
+@import "src/themes/_modal.scss";
+@import "src/themes/_nav.scss";
+@import "src/themes/_pagination.scss";
+@import "src/themes/_progress.scss";
+@import "src/themes/_rating.scss";
+@import "src/themes/_scroll.scss";
+@import "src/themes/_sizing.scss";
+@import "src/themes/_tables.scss";
+@import "src/themes/_text.scss";
+@import "src/themes/_timeline.scss";
+@import "src/themes/_tooltip.scss";
+@import "src/themes/_wizard.scss";
+@import "src/themes/_indicators.scss";
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+html,
+body {
+  height: 100%;
+  font-family: $open-sans;
+  font-size: 14px;
+}
+
+body {
+  padding-top: 0;
+  background-color: $white !important;
+}
+
+[role="button"] {
+  cursor: pointer;
+  cursor: hand;
+}
+
+a.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+label.disabled {
+  opacity: 0.65;
+}
+
+button.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+button {
+  cursor: pointer;
+  cursor: hand;
+}
+
+header {
+  position: relative;
+  margin: 1rem 2rem;
+  padding-top: 60px;
+
+  .title {
+    font-weight: 100;
+    color: $smarkets-blue-dark;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.rotulo-pagina {
+  width: 100%;
+  max-height: 50px;
+  background-color: #fff;
+  font-size: 16px;
+  h3 {
+    font-size: 1.4rem;
+    color: #0a5274;
+    font-weight: bold;
+  }
+}
+
+.no-content {
+  text-align: center;
+  color: $cyan;
+}
+
+h5 {
+  font-size: 16.5px;
+}
+
+.truncate {
+  white-space: nowrap;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.infinite-scroll {
+  height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+@media (min-width: 1024px) {
+  .infinite-scroll {
+    height: calc(100vh - #{$navbar-height});
+  }
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.mt-nav-height {
+  margin-top: 60px;
+}
+
+// #region Suport Icon
+#jsd-widget {
+  right: 10px !important;
+}
+// #endregion
+
+.whatsapp-fixo {
+  position: fixed;
+  margin-bottom: 1px;
+  bottom: 10px;
+  right: 75px;
+  z-index: 999;
+  width: 65px;
+  height: 65px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}

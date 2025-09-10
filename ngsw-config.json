@@ -1,0 +1,23 @@
+{
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "Smarkets Marketplace",
+      "installMode": "prefetch",
+      "resources": {
+        "files": []
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/fonts/**",
+          "/assets/img/**",
+          "/assets/js/**"
+        ]
+      }
+    }
+  ]
+}

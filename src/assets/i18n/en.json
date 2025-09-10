@@ -1,0 +1,141 @@
+{
+  "ACTIONS": {
+    "ACTIONS": "Actions",
+    "INCLUDE": "Include",
+    "CHANGE": "Change",
+    "ACTIVATE": "Activate",
+    "DEACTIVATE": "Deactivate",
+    "DELETE": "Delete"
+  },
+  "ALERTS": {
+    "EMAIL_ALREADY_IN_USE": "Email is already in use",
+    "REQUIRED_FIELDS": "Please fill in all required fields correctly",
+    "REQUIRED_ADDRESS": "Please fill in at least one address",
+    "UNAUTHORIZED": "Access not allowed",
+    "INTERNAL_SERVER_ERROR": "An unexpected error occurred, please try again later",
+    "INCORRECT_PASSWORD_USERNAME": "Incorrect password or username",
+    "INCORRECT_USERNAME": "Incorrect username",
+    "SUCCESS": "Action accomplished successfully",
+    "USER_CREATION": "Access data was sent to the user's email. Set user permissions to ensure access",
+    "BLOCKED_USER": "Blocked user",
+    "USER_WITHOUT_PERMISSION": "User without permission",
+    "COULD_NOT_ADD_CART_MINIMUM_BATCH": "Could not add to cart, minimum batch not reached",
+    "ORDER_CONFIRMED_WAIT_FOR_APPROVAL": "Order confirmed, wait for approval",
+    "NO_ITEMS_AVAILABLE": "No items available",
+    "INVALID_CNPJ": "Invalid CNPJ",
+    "CNPJ_ALREADY_IN_USE": "CNPJ already in use",
+    "INVALID_ORDER_MARKETPLACE": "Invalid order, confirm that items are still available in markeplace or have changed",
+    "INVALID_ORDER_NO_DEPARTMENT": "Invalid order, no department able to approve orders with this registered value",
+    "INVALID_ORDER_NO_COST_CENTER": "Invalid order, no cost center able to approve orders with this amount registered",
+    "INVALID_ORDER_USER_WITHOUT_DEPARTMENT": "Invalid order, your permission is not linked to the department",
+    "INVALID_ORDER_USER_WITHOUT_COST_CENTER": "Invalid order, your permission is not linked to the cost center",
+    "NON_APPROVED_SUPPLIER": "Non approves supplier.",
+    "DECLINED_SUPPLIER": "Declined supplier.",
+    "SUPPLIER_UNDER_REVIEW": "Supplier under review",
+    "SUPPLIER_ALREADY_PARTICIPATING": "Supplier is already participating",
+    "INVALID_ORDER_NO_APPROVAL_TYPE": "Invalid order, no approval type defined for your companie",
+    "INVALID_MINIMUM_BILLING_ALREADY_EXISTS": "Minimum billing with this settings already exists",
+    "INVALID_ORDER_MINIMUM_BILLING": "Invalid order, does not reach the minimum billing",
+    "INVALID_ORDER_EXCEEDS_MAX_QUANTITY": "Invalid order, any item exceeds the maximum quantity of 1,000,000,000",
+    "INVALID_ORDER_ITEM_EXCEEDS_MAX_QUANTITY": "Quantity exceeds maximum of 1,000,000,000",
+    "INVALID_ORDER_REVIEW_ALTREADY_REVIEWED": "Order already reviewed by another user",
+    "INVALID_ORDER_INVALID_PAYMENT_METHOD": "You must select a payment method",
+    "INVALID_AGGREMENT_PARTICIPANT_ALREADY_EXIST": "Participant already registered",
+    "SLA_ALREADY_REGISTERED": "SLA already registered",
+    "PAYMENT_TERMS_ALREADY_REGISTERED": "Payment terms already registered",
+    "PERMISSION_DENIED": "You do not have permission to perform this action",
+    "ATTENTION": "Attention"
+  },
+  "GENERAL": {
+    "DESCRIPTION": "Description",
+    "NO_RECORDS_FOUND": "No records found",
+    "PAGE_NOT_FOUND": "Page not found"
+  },
+  "LANGUAGES": {
+    "LANGUAGE": "Language",
+    "en": "English",
+    "es": "Espanish",
+    "fr": "French",
+    "pt-br": "Portuguese"
+  },
+  "LOADING": "Loading...",
+  "LOADING_MORE_ITEMS": "Loading more items...",
+  "MEASURE": {
+    "MEASURE_UNITS": "Measure units"
+  },
+  "PAGES": {
+    "AUTH": {
+      "NEW_PASSWORD": "New password",
+      "CONFIRM_NEW_PASSWORD": "Confirm new password",
+      "SIGN_IN": "Sign in",
+      "FORGOT_PASSWORD": "Forgot your password?",
+      "RESET_PASSWORD": "Reset password",
+      "BACK_LOGIN_PAGE": "Back to login page",
+      "USER_NOT_FOUND": "User not found",
+      "PASSWORD_RESET_SUCCESS": "Check your inbox for the next steps. If you don't receive an email, and it's not in your spam folder this could mean you signed up with a different address.",
+      "PASSWORD_CONFIRMATION_NOT_MATCH": "New password and confirmation must be the same",
+      "PASSWORD_INVALID": "New password invalid",
+      "CHANGE_PASSWORD": "Change password",
+      "PASSWORD_CHANGED_SUCCESSFULLY": "Password changed successfully",
+      "RESET_MFA_SUCCESS": "Now this user needs to reconfigure two-factor authentication on next login"
+    },
+    "BANK": {
+      "BANKS": "Bank",
+      "DESCRIPTION": "Desctription"
+    },
+    "COMPANY": {
+      "COMPANY": "Company"
+    },
+    "FILTER": {
+      "FILTER": "Filter",
+      "ADVANCED_FILTER": "Advanced filter",
+      "TO_FILTER": "To filter",
+      "PROPERTY": "Property",
+      "COMPARATION": "Comparation",
+      "WORD": "Word",
+      "RELATION": "Relation",
+      "REMOVE": "Remove",
+      "IS_EQUAL": "Is equal to",
+      "IS_DIFFERENT": "Is different to",
+      "IS_BIGGER": "Is bigger than",
+      "IS_BIGGER_EQUAL": "Is bigger or equal to",
+      "IS_SMALLER": "Is smaller than",
+      "IS_SMALLER_EQUAL": "Is smaller or equal to",
+      "STARTS_WITH": "Starts with",
+      "DO_NOT_STARTS_WITH": "Do not starts with",
+      "TERMINATES_WITH": "Terminates with",
+      "DO_NOT_TERMINATES_WITH": "Do not terminates with",
+      "CONTAINS": "Conteins",
+      "DO_NOT_CONTAINS": "Do not contains",
+      "AND": "And",
+      "OR": "Or"
+    },
+    "MENU": {
+      "HOME": "Home",
+      "LOGOUT": "Logout"
+    },
+    "USER": {
+      "CODE": "Code",
+      "USERS": "Users",
+      "USER": "User",
+      "NAME": "Name",
+      "STATUS": "Status",
+      "EMAIL": "E-mail",
+      "USERNAME": "Username",
+      "PASSWORD": "Password",
+      "TYPE": "Type",
+      "PERSON_CODE": "Indentification doc",
+      "USER_STATUS": {
+        "ACCESSIBLE": "Accessible",
+        "BLOCKED": "Blocked",
+        "BLOCKED_DUE_TO_OVER_ATTEMPTS": "Blocked due to over attempts"
+      }
+    }
+  },
+  "PLACE": {
+    "COUNTRY": "Country"
+  },
+  "TIME": {
+    "TIMEZONE": "Timezone"
+  }
+}

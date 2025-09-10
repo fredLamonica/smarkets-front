@@ -1,0 +1,146 @@
+{
+  "ACTIONS": {
+    "ACTIONS": "Ações",
+    "INCLUDE": "Incluir",
+    "CHANGE": "Alterar",
+    "ACTIVATE": "Ativar",
+    "DEACTIVATE": "Desativar",
+    "DELETE": "Excluir"
+  },
+  "ALERTS": {
+    "EMAIL_ALREADY_IN_USE": "Email já está em uso",
+    "REQUIRED_FIELDS": "Por favor preencha corretamente todos os campos obrigatórios",
+    "REQUIRED_ADDRESS": "Por favor preencha corretamente ao menos um endereço",
+    "UNAUTHORIZED": "Acesso não permitido",
+    "INTERNAL_SERVER_ERROR": "Ocorreu um erro inesperado, tente novamente mais tarde",
+    "INCORRECT_PASSWORD_USERNAME": "Senha ou usuário incorretos",
+    "INCORRECT_USERNAME": "Usuário incorreto",
+    "SUCCESS": "Ação realizada com sucesso",
+    "USER_CREATION": "Dados de acesso foram enviados ao e-mail do usuário. Defina as permissões do usuário para garantir o acesso",
+    "BLOCKED_USER": "Usuário bloqueado",
+    "USER_WITHOUT_PERMISSION": "Usuário sem permissão",
+    "COULD_NOT_ADD_CART_MINIMUM_BATCH": "Não foi possível adicionar ao carrinho, lote mínimo não alcançado",
+    "REQUEST_CONFIRMED_WAIT_FOR_APPROVAL": "Pedido confirmado, aguarde sua aprovação",
+    "NO_ITEMS_AVAILABLE": "Nenhum item disponível",
+    "INVALID_CNPJ": "CNPJ inválido",
+    "CNPJ_ALREADY_IN_USE": "CNPJ já está em uso",
+    "INVALID_ORDER_MARKETPLACE": "Pedido inválido, confirme se os itens ainda estão disponíveis no catálogo ou se houveram alterações",
+    "INVALID_ORDER_NO_DEPARTMENT": "Pedido inválido, nenhum departamento cadastrado apto a aprovar pedidos com este valor",
+    "INVALID_ORDER_NO_COST_CENTER": "Pedido inválido, nenhum centro de custo cadastrado apto a aprovar pedidos com este valor",
+    "INVALID_ORDER_USER_WITHOUT_DEPARTMENT": "Pedido inválido, sua permissão não está vinculada a departamentos",
+    "INVALID_ORDER_USER_WITHOUT_COST_CENTER": "Pedido inválido, sua permissão não está vinculada a centros de custo",
+    "COMPANY_BLOCKED_TO_GENERATE_ORDERS_AND_REQUESTS": "Requisição e pedidos bloqueados",
+    "INVALID_ORDER_DELETED_ALL": "Um erro inesperado ocorreu com o pedido, nenhum pedido foi gerado",
+    "INVALID_ORDER_NO_APPROVAL_TYPE": "Pedido inválido, nenhum tipo de aprovação definido para sua empresa",
+    "INVALID_MINIMUM_BILLING_ALREADY_EXISTS": "Já existe faturamento mínimo com essa configuração",
+    "INVALID_ORDER_MINIMUM_BILLING": "Pedido inválido, não alcança o faturamento mínimo",
+    "INVALID_ORDER_EXCEEDS_MAX_QUANTITY": "Pedido inválido, algum item ultrapassa a quantidade máxima de 1.000.000.000",
+    "INVALID_ORDER_ITEM_EXCEEDS_MAX_QUANTITY": "Quantidade ultrapassa o máximo de 1.000.000.000",
+    "INVALID_ORDER_REVIEW_ALTREADY_REVIEWED": "Pedido já foi analisado por outro usuário",
+    "INVALID_ORDER_INVALID_PAYMENT_METHOD": "É obrigatório selecionar uma condição de pagamento",
+    "INVALID_AGGREMENT_PARTICIPANT_ALREADY_EXIST": "Participante já registrado como participante",
+    "SLA_ALREADY_REGISTERED": "SLA já cadastrado",
+    "REQUEST_NOT_FOUND": "Não foi encontrada nenhuma requisição com os parâmetros informados.",
+    "NON_APPROVED_SUPPLIER": "Fornecedor não homologado.",
+    "DECLINED_SUPPLIER": "Fornecedor declinado.",
+    "SUPPLIER_UNDER_REVIEW": "Fornecedor em análise",
+    "SUPPLIER_ALREADY_PARTICIPATING": "Fornecedor já está participando",
+    "PAYMENT_TERMS_ALREADY_REGISTERED": "Condição de pagamento já registrada",
+    "PERMISSION_DENIED": "Você não tem permissão para executar esta ação",
+    "ATTENTION": "Atenção",
+    "PROCESSANDO_CARGA": "A carga está sendo processada",
+    "PAGINA_NAO_EXISTE": "A página solicitada não existe"
+  },
+  "GENERAL": {
+    "DESCRIPTION": "Descrição",
+    "NO_RECORDS_FOUND": "Nenhum registro encontrado.",
+    "PAGE_NOT_FOUND": "Página não encontrada"
+  },
+  "LANGUAGES": {
+    "LANGUAGE": "Language",
+    "en": "Inglês",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "pt-br": "Português"
+  },
+  "LOADING": "Carregando...",
+  "LOADING_MORE_ITEMS": "Carregando mais itens...",
+  "MEASURE": {
+    "MEASURE_UNITS": "Unidades de medida"
+  },
+  "PAGES": {
+    "AUTH": {
+      "NEW_PASSWORD": "Nova senha",
+      "CONFIRM_NEW_PASSWORD": "Confirme a nova senha",
+      "SIGN_IN": "Entrar",
+      "FORGOT_PASSWORD": "Esqueceu sua senha?",
+      "RESET_PASSWORD": "Recuperar senha",
+      "BACK_LOGIN_PAGE": "Voltar a página de login",
+      "USER_NOT_FOUND": "Usuário não encontrado",
+      "PASSWORD_RESET_SUCCESS": "Verifique sua caixa de entrada para as próximas etapas. Se você não receber um e-mail e ele não estiver na sua pasta de spam, isso pode significar que seu e-mail cadastrado é diferente",
+      "PASSWORD_CONFIRMATION_NOT_MATCH": "Nova senha e confirmação devem ser iguais",
+      "PASSWORD_INVALID": "Nova senha inválida",
+      "CHANGE_PASSWORD": "Alterar senha",
+      "PASSWORD_CHANGED_SUCCESSFULLY": "Senha alterada com sucesso",
+      "RESET_MFA_SUCCESS": "Agora este usuário precisa reconfigurar a autenticação em dois fatores no próximo login"
+    },
+    "BANK": {
+      "BANKS": "Bancos",
+      "DESCRIPTION": "Descrição"
+    },
+    "COMPANY": {
+      "COMPANY": "Empresa"
+    },
+    "FILTER": {
+      "FILTER": "Filtro",
+      "ADVANCED_FILTER": "Filtro avançado",
+      "TO_FILTER": "Filtrar",
+      "PROPERTY": "Propriedade",
+      "COMPARATION": "Comparação",
+      "WORD": "Termo",
+      "RELATION": "Relação",
+      "REMOVE": "Remover",
+      "IS_EQUAL": "É igual a",
+      "IS_DIFFERENT": "É diferente de",
+      "IS_BIGGER": "É maior que",
+      "IS_BIGGER_EQUAL": "É maior ou igual a",
+      "IS_SMALLER": "É menor que",
+      "IS_SMALLER_EQUAL": "É menor ou igual a",
+      "STARTS_WITH": "Começa com",
+      "DO_NOT_STARTS_WITH": "Não começa com",
+      "TERMINATES_WITH": "Termina com",
+      "DO_NOT_TERMINATES_WITH": "Não termina com",
+      "CONTAINS": "Contém",
+      "DO_NOT_CONTAINS": "Não Contém",
+      "AND": "E",
+      "OR": "Ou"
+    },
+    "MENU": {
+      "HOME": "Inicio",
+      "LOGOUT": "Sair"
+    },
+    "USER": {
+      "CODE": "Código",
+      "USERS": "Usuários",
+      "USER": "Usuário",
+      "NAME": "Nome",
+      "STATUS": "Situação",
+      "EMAIL": "E-mail",
+      "USERNAME": "Usuário",
+      "PASSWORD": "Senha",
+      "TYPE": "Tipo",
+      "PERSON_CODE": "Identification document",
+      "USER_STATUS": {
+        "ACCESSIBLE": "Liberado",
+        "BLOCKED": "Bloqueado",
+        "BLOCKED_DUE_TO_OVER_ATTEMPTS": "Bloqueado por excesso de tentativas"
+      }
+    }
+  },
+  "PLACE": {
+    "COUNTRY": "País"
+  },
+  "TIME": {
+    "TIMEZONE": "Fuso horário"
+  }
+}
